@@ -29,33 +29,16 @@ export default function Home() {
         Get up to 25% off when you purchase a 3 month plan
       </div>
 
-      {/* Hero */}
-      <section className="section hero-gradient">
-        <div className="container grid md:grid-cols-2 gap-10 items-center">
-          <div className="space-y-6">
-            <div className="badge inline-block">Even more data!</div>
-            <h1>Even More Data!</h1>
-            <p className="small-muted max-w-xl">
-              All plans include unlimited talk and text and are subject to Gen Mobile's Terms and Conditions.
-            </p>
-            <div className="flex gap-3 flex-wrap">
-              <a className="btn btn-primary" href="#plans">View plans</a>
-              <a className="btn border border-neutral-300" href="#why">Why Gen Mobile?</a>
-            </div>
-            <div className="flex gap-6 items-center pt-4">
-              <Image src="https://ext.same-assets.com/2099578469/2385293180.svg" alt="5G badge" width={56} height={56} />
-              <Image src="https://ext.same-assets.com/2099578469/322802589.svg" alt="network badge" width={120} height={40} />
-            </div>
-          </div>
-          <div className="relative w-full aspect-[4/3] md:aspect-[5/4]">
-            <Image
-              src="https://ext.same-assets.com/2099578469/2404223660.png"
-              alt="Gen Mobile phones"
-              fill
-              className="object-contain"
-              priority
-            />
-          </div>
+      {/* Hero - full banner */}
+      <section className="relative w-full">
+        <div className="relative w-full aspect-[9/4] sm:aspect-[16/7] md:aspect-[21/9] lg:aspect-[21/7]">
+          <Image
+            src="https://images.unsplash.com/photo-1542281286-9e0a16bb7366?q=80&auto=format&fit=crop&w=2000"
+            alt="Abstract gradient banner"
+            fill
+            className="object-cover"
+            priority
+          />
         </div>
       </section>
 
